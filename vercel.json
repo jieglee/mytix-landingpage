@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "framework": null,
+  "rewrites": [
+    { "source": "/image/(.*)", "destination": "/image/$1" },
+    { "source": "/(.*)", "destination": "/src/$1" }
+  ]
+}
